@@ -25,7 +25,7 @@ function Book({allBooks}){
                         <p className="author-book">{authorBook}</p>
                     </div>
                     <div>
-                        <p className="annotation"><p>Анотація:</p> {showMore ? annotationBook : annotationBook.substring(0, 170) + '...'}
+                        <p className="annotation"><br />Анотація: {showMore ? annotationBook : annotationBook.substring(0, 170) + '...'}
                         <button className="style-show-more" onClick={() => showTextClick(element)}>{showMore ? "Звернути" : "Показати більше"}</button>
                         </p>
                     </div>
