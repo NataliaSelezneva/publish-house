@@ -13,7 +13,7 @@ function Book({allBooks}){
     return(
         <div className="block-books">
             {allBooks.map((element =>{
-                const {id, titleBook, authorBook, annotationBook, imageBook, searchBook, priceBook, showMore, shopPhoto } = element;
+                const {id, titleBook, authorBook, annotationBook, imageBook, priceBook, showMore } = element;
 
                 return(
                 <div className="information-every-book" key={id}>
