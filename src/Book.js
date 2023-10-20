@@ -32,6 +32,9 @@ function Book({allBooks}){
                     <div className="style-price">
                         <p className="price">{priceBook} грн.</p>
                     </div>
+                    <div className="style-price">
+                        <button className="buy">Купити</button>
+                    </div>
                 </div>
                 )
             }))}
